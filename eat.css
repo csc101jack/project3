@@ -1,0 +1,115 @@
+body {
+	padding-top: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .mynavbar .navbar-brand {
+        padding: 0px;
+        transform: translateX(-50%);
+        left: 50%;
+        position: absolute;
+    }
+    .mynavbar .navbar-brand>img {
+        height: 100%;
+        width: auto;
+        padding: 7px 14px;
+    }
+}
+
+/* Center background on navbar */
+
+.mynavbar .navbar-brand {
+    background: url(photos/logo.png) center / contain no-repeat;
+    width: 200px;
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+}
+
+/*content boxes*/
+
+.contentbox1{
+	background: url("photos/muffins.jpg") no-repeat center center;
+	height: 70px;
+	width: auto;
+	padding-left: 20px;
+	display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    background-size: 100% auto;
+}
+
+.contentbox2{
+	background: url("photos/cookies.jpg") no-repeat center center; 
+	height: 70px;
+	width: auto;
+	padding-left: 20px;
+	display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    background-size: 100% auto;
+}
+
+.contentbox3{
+	background: url("photos/pie.jpg") no-repeat center center; 
+	height: 70px;
+	width: auto;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    background-size: 100% auto;
+}
+
+.contentbox4{
+	background: url("photos/brownie.jpg") no-repeat center center; 
+	height: 70px;
+	width: auto;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    background-size: 100% auto;
+}
+
+.contentbox5{
+	background: url("photos/balls.jpg") no-repeat center center;
+	height: 70px;
+	width: auto;
+	padding-left: 20px;
+	display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    background-size: 100% auto;
+}
+.contentboxtext {
+	color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}

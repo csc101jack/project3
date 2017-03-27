@@ -1,2 +1,2 @@
-# project3
-project3
+# Project2
+CSC 101 Project 2

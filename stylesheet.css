@@ -1,0 +1,169 @@
+/* Center brand on mobile*/
+
+#profpic {
+    right: 50px;
+    
+
+}
+@media only screen and (max-width: 768px) {
+    .mynavbar .navbar-brand {
+        padding: 0px;
+        transform: translateX(-50%);
+        left: 50%;
+        position: absolute;
+    }
+    .mynavbar .navbar-brand>img {
+        height: 100%;
+        width: auto;
+        padding: 7px 14px;
+    }
+}
+
+/* Center background on navbar */
+
+.mynavbar .navbar-brand {
+    background: url(photos/logo.png) center / contain no-repeat;
+    width: 200px;
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+}
+
+/* Section Breaks (for seperating sections on webpage) */
+
+#sectionbreak {
+
+    background-color: lightgray;
+
+}
+
+.boldword {
+
+    font-size: 40px; text-align: center;
+}
+
+/* Info Breaks (to display info like current deal etc. */
+
+#para1 { text-align: left; font-size: 40px; color: black;
+}
+#para2 { text-align: left; font-size: 40px; color: red;
+}
+/* Subcribe Buttons */
+
+#button2 { position: absolute; right: 20px; background-color: palegreen; font-size: 40px; border-radius: 25px;
+
+}
+
+#button1 { position: absolute; right: 20px; background-color: indianred; font-size: 40px; border-radius: 25px;
+
+}
+
+#infobreak1 {
+
+height: 200px; width: 100%;
+
+background-image: url("photos/cookies.jpg");
+
+background-size: 100% auto;
+/* can use CSS function background-repeat: no-repeat; to NOT have image repeat across page */
+
+/* could have OPACITY if needed here is css for it opacity: 0.5; */
+
+}
+#infobreak2 {
+
+height: 200px; width: 100%;
+
+background-image: url("photos/buns.jpg");
+
+background-size: 100% auto;
+/* can use CSS function background-repeat: no-repeat; to NOT have image repeat across page */
+
+
+
+}
+#infobreak3 {
+
+height: 200px; width: 100%;
+
+background-image: url("photos/muffins.jpg");
+
+background-size: 100% auto;
+/* can use CSS function background-repeat: no-repeat; to NOT have image repeat across page */
+
+
+}
+
+#font {
+
+font-weight: bold;
+
+}
+/*Name on the profile page */
+.boldword1 {
+    text-align: center;
+
+    opacity: 0.5;
+}
+
+#sectionbreak1 {
+    text-align: center;
+
+    background-color: lightgray;
+}
+/*profile page stylings*/
+
+
+#profmenu {
+
+    text-align: center;
+
+}
+
+.row {
+    text-align: center;
+}
+
+
+#profpic {
+    right: 50px;
+    
+
+}
+#pay1, #pay2, #pay3 { 
+    position: absolute; 
+    right: 130px; 
+    font-size: 40px; 
+    border-radius: 25px;
+    }
+
+}
+#paymentbg {
+   
+    max-width:100%;
+    max-height:100%;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    
+}
+#pay{
+    background-color: #d3d3d3;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    border: solid 4px black;
+    width: 200px;
+    height: 295px;
+    border-radius:25px;
+    font-size:15px;
+    font-weight:bold;
+    position:absolute;
+    top:35%;
+    left:43%;
+    right:57%;
+    bottom:65%
+}
+
+
+    
+
+

@@ -1,0 +1,60 @@
+body {
+	padding-top: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .mynavbar .navbar-brand {
+        padding: 0px;
+        transform: translateX(-50%);
+        left: 50%;
+        position: absolute;
+    }
+    .mynavbar .navbar-brand>img {
+        height: 100%;
+        width: auto;
+        padding: 7px 14px;
+    }
+}
+
+/* Center background on navbar */
+
+.mynavbar .navbar-brand {
+    background: url(photos/logo.png) center / contain no-repeat;
+    width: 200px;
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+#photo {
+    width: 100%; height: 400px;
+}
