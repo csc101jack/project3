@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
-    
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="business.css" rel="stylesheet" type="text/css">
+    <link href="product.css" rel="stylesheet" type="text/css">
     <script src="scripts.js">
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
@@ -15,8 +14,9 @@
 
     <title>EATS</title>
 </head>
+
 <body>
-<nav class="navbar navbar-default navbar-static-top mynavbar navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-static-top mynavbar navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button class="navbar-toggle collapsed" data-target="#mynavbar" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand text-hide" href="eat.html" rel="nofollow">EATS</a>
@@ -25,15 +25,14 @@
 
             <div class="navbar-collapse collapse" id="mynavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="eat.html" rel="nofollow">Eat</a>
+                    <li class="active">
+                        <a href="#" rel="nofollow">Eat</a>
                     </li>
 
 
                     <li>
                         <a href="myprofile.html" rel="nofollow">My Profile</a>
                     </li>
-                    <li> <a href="product.ejs" rel"nofollow">Products</a>
 
 
                     <li class="dropdown">
@@ -59,31 +58,18 @@
             </div>
         </div>
     </nav>
-</body>
 
 <body class="container">
 
-    <header>
-        
-    </header>
-
     <main>
-        <div class="jumbotron">
-            <h1>dynamic query example</h1>
-            <p>construct and call a MySQL query</p>
-        </div>
         <form action="/query" method="post">
             <h2>Query<h2>
             <label for="queryStr">Enter a location</label>
             <input id="queryStr" type="text" name="queryStr" placeholder="enter name">
             <button id="execute" type="submit">run query</button>
         </form>
-
-        <h2>Results</h2>
         
     </main>
 
-
-    
 </body>
 </html>
