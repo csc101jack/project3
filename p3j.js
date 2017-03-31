@@ -8,7 +8,7 @@ var app = express();
 app.set('view engine', 'ejs');
 
  app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static('.'));
+ app.use(express.static("."));
 
 // use res.render to load up an ejs view file
 var connection = mysql.createConnection({
@@ -49,13 +49,37 @@ connection.query('SELECT DISTINCT p3items.class FROM p3items', function(err, row
 
 connection.end();
 
-app.get('/', function(req, res) {
+app.get('/product1', function(req, res) {
 
  res.render('product1', { classType: classType, listings: listings })
 //res.render('product1', JSON.stringify({listings: listings, classType: classType}))
   
 })
 
+app.get('/business', function(req, res) {
+
+ res.render('business', { classType: classType, listings: listings })
+//res.render('product1', JSON.stringify({listings: listings, classType: classType}))
+  
+})
+app.get('/myprofile', function(req, res) {
+
+ res.render('myprofile', { classType: classType, listings: listings })
+//res.render('product1', JSON.stringify({listings: listings, classType: classType}))
+  
+})
+app.get('/index', function(req, res) {
+
+ res.render('index', { classType: classType, listings: listings })
+//res.render('product1', JSON.stringify({listings: listings, classType: classType}))
+  
+})
+app.get('/eat', function(req, res) {
+
+ res.render('eat', { classType: classType, listings: listings })
+//res.render('product1', JSON.stringify({listings: listings, classType: classType}))
+  
+})
 
 
 
